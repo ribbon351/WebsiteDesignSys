@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 10%;
+}
+
+.container {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* -colour area- */
+.color-panel {
+    display:inline-block;
+    width: 19%;
+    text-align: center;
+    margin: 5px auto;
+    min-height: 100px;
+}
+
+.black {
+    background-color: #2D2A32;
+    color: white;
+    margin-left: 2px;
+}
+
+.citrine {
+    background-color: #DDD92A;
+    color: black;
+}
+
+.blue {
+    background-color: #51D6FF;
+    color: black;
+}
+
+.poppy {
+    background-color: #DF2935;
+    color: white; 
+}
+
+.green {
+    background-color: #2A7221;
+    color: white;
+}
+
+/* -font area- */
+.font-panel {
+    display: inline-block;
+    width: 49.5%;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/*font*/
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Typefaces*/
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.handjet {
+    font-family: 'Handjet', cursive;
+}
+
+.lobster {
+    font-family: 'Lobster Two', cursive;
+}
+
+/* -text style area- */
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    font-size: large;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-panel aside {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Lobster Two', cursive;
+}
